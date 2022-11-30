@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.WalletBillActivity">
+
+    <include
+        android:id="@+id/include7"
+        layout="@layout/include_back_title_toolbar" />
+
+<!--    <Spinner-->
+<!--        android:id="@+id/spinner"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:minHeight="48dp"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        tools:ignore="SpeakableTextPresentCheck"-->
+<!--        tools:layout_editor_absoluteY="56dp" />-->
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/imageButton"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/guideline2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guideline3"-->
+<!--        app:srcCompat="@drawable/ic_arrow_right" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_go_recharge"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:padding="5dp"-->
+<!--        android:text="@string/recharge"-->
+<!--        app:drawableEndCompat="@drawable/ic_action_arrow_right"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/guideline2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guideline3" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_bill_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include7"
+        tools:listitem="@layout/item_bill" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView_placeholder3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="收入：%.2f"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/spinner" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView_placeholder4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="支出：%.2f"-->
+<!--        android:visibility="gone"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/spinner" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

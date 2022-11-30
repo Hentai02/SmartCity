@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/modify_car_mileage_menu" android:title="修改车辆里程信息" />
+    <item android:id="@+id/del_car_mileage_menu" android:title="删除车辆里程信息" />
+</menu>

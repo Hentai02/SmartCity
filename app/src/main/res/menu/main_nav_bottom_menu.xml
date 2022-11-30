@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="首页"
+        android:id="@+id/home_page_nav"
+        android:icon="@drawable/ic_nav_home"
+        android:enabled="true"/>
+    <item android:title="全部服务"
+        android:id="@+id/all_service_nav"
+        android:icon="@drawable/ic_nav_all_service"
+        android:enabled="true"/>
+    <item android:title="智慧党建"
+        android:id="@+id/wisdom_part_nav"
+        android:icon="@drawable/ic_nav_wisdom_party_building"
+        android:enabled="true"/>
+    <item android:title="数据分析"
+        android:id="@+id/news_nav"
+        android:icon="@drawable/ic_nav_news"
+        android:enabled="true"/>
+    <item android:title="个人中心"
+        android:id="@+id/user_nav"
+        android:icon="@drawable/ic_nav_user_home"
+        android:enabled="true"/>
+</menu>

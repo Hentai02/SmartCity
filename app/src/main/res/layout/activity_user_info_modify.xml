@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.UserInfoModifyActivity">
+
+    <include
+        android:id="@+id/include12"
+        layout="@layout/include_back_title" />
+
+    <TextView
+        android:id="@+id/tv_modify_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="昵称"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_modify_user_avatars" />
+
+    <EditText
+        android:id="@+id/et_modify_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_modify_nickname"
+        app:layout_constraintStart_toEndOf="@+id/tv_modify_nickname" />
+
+    <TextView
+        android:id="@+id/tv_modify_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="性别"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_modify_nickname" />
+
+    <RadioGroup
+        android:id="@+id/rg_isGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_modify_gender"
+        app:layout_constraintStart_toEndOf="@+id/tv_modify_gender">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/iv_modify_user_avatars"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include12"
+        android:background="@drawable/ic_user_avatars" />
+
+    <TextView
+        android:id="@+id/tv_modify_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="联系电话"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_modify_gender" />
+
+    <EditText
+        android:id="@+id/et_modify_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_modify_phone"
+        app:layout_constraintStart_toEndOf="@+id/tv_modify_phone" />
+
+    <TextView
+        android:id="@+id/tv_modify_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/modify_id_format"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_modify_user_avatars"
+        app:layout_constraintStart_toEndOf="@+id/iv_modify_user_avatars" />
+
+    <TextView
+        android:id="@+id/tv_modify_uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/modify_uid_format"
+        app:layout_constraintStart_toEndOf="@+id/iv_modify_user_avatars"
+        app:layout_constraintTop_toTopOf="@+id/iv_modify_user_avatars" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:text="保存"
+        android:onClick="savaUserInfo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_modify_phone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

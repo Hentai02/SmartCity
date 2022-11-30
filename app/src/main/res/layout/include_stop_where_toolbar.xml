@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_user_avatars"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/ic_user_avatars"
+        tools:ignore="ImageContrastCheck" />
+
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:outlineProvider="none"
+        android:layout_weight="1"
+        android:imeOptions="actionDone"
+        android:background="@drawable/bg_search"
+        android:layout_height="30dp"/>
+
+    <ImageView
+        android:id="@+id/iv_notify"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_action_notifications"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/iv_history"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_action_history"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+</LinearLayout>

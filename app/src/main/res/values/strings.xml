@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">SmartCity04</string>
+
+    <!--  占位符   -->
+    <string name="text_placeholder">TextView_Placeholder</string>
+
+    <!-- 新闻详情 format -->
+    <string name="news_update_format">更新时间：%s</string>
+    <string name="news_read_num_format">%d 阅读</string>
+
+    <!-- 个人中心format -->
+    <string name="reply_userinfo_format">%d\n订单</string>
+    <string name="balance_userinfo_format">￥%.2f\n余额</string>
+    <string name="score_userinfo_format">%d\n积分</string>
+    <string name="uid_format">UID：%d</string>
+
+
+    <string name="bill_income">+ %.2f</string>
+    <string name="bill_expenses">- %.2f</string>
+
+    <!--    -->
+
+    <string name="setting_my_reply">我的回复</string>
+    <string name="setting_blacklist_management">黑名单管理</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_more">更多</string>
+    <string name="setting_set">设置</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="service_stop_where">停哪儿</string>
+    <string name="service_city_subway">城市地铁</string>
+    <string name="service_takeaway_order">外卖订餐</string>
+    <string name="service_wisdom_traffic">智慧交管</string>
+    <string name="service_find_house">找房子</string>
+    <string name="service_find_job">找工作</string>
+    <string name="service_event_manage">活动管理</string>
+    <string name="service_living_expenses">生活缴费</string>
+    <string name="service_look_movie">看电影</string>
+    <string name="service_more">更多服务</string>
+
+    <string name="stop_where_my_car">我的车</string>
+    <string name="stop_where_point">积分</string>
+    <string name="stop_where_recharge">钱包</string>
+    <string name="stop_where_store">商店</string>
+
+    <string name="entryTime">入场时间</string>
+    <string name="outTime">出场时间</string>
+    <string name="parkName">停车场</string>
+    <string name="plateNumber">车牌号</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="park_address_format">地址：%s</string>
+    <string name="park_distance_format">距您的位置相距 %s 米</string>
+    <string name="park_rates_format">收费 %s￥</string>
+    <string name="park_vacancy_format">空位：%s</string>
+    <string name="park_priceCaps_format">最高价：%s￥</string>
+    <string name="parkNo_record_format">车位号：%s</string>
+    <string name="monetary_record_format">-%s ￥</string>
+    <string name="entryTime_record_format">入：%s</string>
+    <string name="outTime_record_format">出：%s</string>
+    <string name="recharge">充值</string>
+    <string name="logout_label">退出登录</string>
+    <string name="stop_where_income">+ %d￥</string>
+    <string name="product_name_format">%d元加油卡</string>
+    <string name="product_price_format">￥%d</string>
+    <string name="product_saleQuantity_format">销量 %d</string>
+    <string name="product_score_format">所需积分 %d</string>
+    <string name="product_total_format">数量：%d</string>
+    <string name="text_search">搜索</string>
+    <string name="text_rank">排行榜</string>
+    <string name="rank_score_format">积分：%d</string>
+    <string name="rank_balance_format">余额：%s</string>
+    <string name="rank_tips_format">总用户：%d,当前只显示前50名的用户。</string>
+    <string name="rank_sex_format">性别：%s</string>
+    <string name="car_platNo_format">车牌号：%s</string>
+    <string name="car_type_format">类型：%s</string>
+    <string name="rank_my_rank">您当前位于 %d 位</string>
+    <string name="user_info_details_wallet_format">余额：%.2f 积分：%d</string>
+    <string name="modify_uid_format">UID:%d</string>
+    <string name="modify_id_format">ID:%s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="car_mileage_travelDistance_format">行驶里程：%d 公里</string>
+    <string name="car_mileage_amount_format">金额：%d 元</string>
+    <string name="car_mileage_gasFilling">加油量：%d 升</string>
+    <string name="car_mileage_travelDate_format">行驶日期：%s</string>
+    <string name="data_analysis_format">%d : %s\n%d : %s\n%d : %s\n%d : %s\n%d : %s</string>
+</resources>

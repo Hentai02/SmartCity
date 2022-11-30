@@ -1,0 +1,25 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    
+    <string-array name="spinner_record_filter">
+        <item>入场时间</item>
+        <item>出场时间</item>
+        <item>停车场</item>
+        <item>车牌号</item>
+    </string-array>
+
+    <string-array name="spinner_payType">
+        <item>支付宝</item>
+        <item>微信</item>
+        <item>其他</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/modify_car_info_menu" android:title="修改车辆信息" />
+    <item android:id="@+id/move_car_menu" android:title="申请挪车" />
+    <item android:id="@+id/del_car_menu" android:title="删除" />
+</menu>
